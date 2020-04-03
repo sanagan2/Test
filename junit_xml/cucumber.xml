@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.631644">
+<testcase classname="workday login screen validations" name="" time="0.631644">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.qa.util.TestBase.intialization(TestBase.java:92)&#13;&#10;&#9;at com.qa.stepdefinations.LoginPageStepDef.i_launch_the_application(LoginPageStepDef.java:18)&#13;&#10;&#9;at ✽.Given I launch the application(/Users/sanagan2/eclipse-workspace/Jmhworkday/JMH_workday/src/main/java/com/qa/features/login.feature:5)&#13;&#10;"><![CDATA[Given I launch the application..............................................failed
+When i enter valid username "username"......................................skipped
+And i enter valid password "password".......................................skipped
+And i click on sign in button...............................................skipped
+Then i should see the alert error message "Unrecognized username or password.".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.qa.util.TestBase.intialization(TestBase.java:92)
+	at com.qa.stepdefinations.LoginPageStepDef.i_launch_the_application(LoginPageStepDef.java:18)
+	at ✽.Given I launch the application(/Users/sanagan2/eclipse-workspace/Jmhworkday/JMH_workday/src/main/java/com/qa/features/login.feature:5)
+]]></failure>
+</testcase>
+</testsuite>
